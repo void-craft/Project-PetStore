@@ -1,20 +1,20 @@
 # Project-PetStore
 
-Testing of PetStore API using Postman/Newman
-Used chaining and collection variables to integrate the collection requests
+* Testing of PetStore API using Postman/Newman
+* Used chaining and collection variables to integrate the collection requests
 
 ## Swagger document:
 https://petstore.swagger.io/
 
 ## Tools
 Postman/Newman, newman-reporter-html
-npm install -g newman
-npm install -g newman-reporter-html
+* npm install -g newman
+* npm install -g newman-reporter-html
 
 ## Execution Commands
-newman run pets_module_xml.postman_collection.json -r html
-newman run user_module_json.postman_collection.json -r html
-newman run store_module_json.postman_collection.json -r html
+* newman run pets_module_xml.postman_collection.json -r html
+* newman run user_module_json.postman_collection.json -r html
+* newman run store_module_json.postman_collection.json -r html
 
 ## Collections
 ### Pets Module
